@@ -9,16 +9,16 @@ It uses RapidAPI.com as middleman for the API.
 Create an Account on rapidAPI.com.
 Login your account on rapideAPI.com.
 
-[Go to GoogleTranslate Playground on rapidAPI](https://rapidapi.com/googlecloud/api/google-translate1/)
+[Go to GoogleTranslate Playground on rapidAPI](https://rapidapi.com/googlecloud/api/google-translate1/).
 Subscribe your "copy" of the API by clicking the "Subscribe" button in that page.
 
-Copy your rapidAPIKey to "API_KEY.js" file.
 Find your RAPID API KEY in "Code Snippets" section of that page under request headers.
 `"x-rapidapi-key": "<YOUR API KEY>"`
 
 Clone this repo.
+Go with terminal in root directory of your local repo.
 `npm install`
 
-Update your API_KEY to the file "./API_KEY.js"
+Paste your API_KEY inside the file "./API_KEY.js"
 
 `npm run dev`.
