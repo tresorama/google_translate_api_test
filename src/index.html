@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcel Starter</title>
+
+    <!-- SCSS entry point-->
+    <link rel="stylesheet" href="./scss/style.scss" />
+  </head>
+  <body>
+    <h2>In che lingua vuoi tradurre ?</h2>
+    <p>
+      <select id="languages">
+        <option value="none">Nessuno</option>
+      </select>
+    </p>
+
+    <h2>Testo da tradurre</h2>
+    <p>
+      <textarea id="text-to-translate" name="text-to-translate" rows="4" cols="50">Inserisci il testo da tradurre ...</textarea>
+    </p>
+
+    <p>
+      <button id="translate">Traduci</button>
+    </p>
+
+    <h2>Testo tradotto</h2>
+    <p>
+      <textarea id="text-translated" name="text-to-translate" rows="4" cols="50">Qui comparira il testo tradotto ...</textarea>
+    </p>
+
+    <!-- SCRIPT -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
